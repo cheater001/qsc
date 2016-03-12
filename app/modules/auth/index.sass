@@ -1,0 +1,49 @@
+.auth
+    .box-body
+        position: relative
+
+        input[type="checkbox"]
+            margin-top: 0
+
+    &.login-box
+        position: absolute
+        top: 50%
+        left: 50%
+        margin-top: -10px
+        @include transform(translate(-50%, -50%))
+
+        @media (max-width: $screen-sm)
+            width: 90%
+            margin-top: 20px
+
+        .login, .reset
+            width: 340px
+
+        h3
+            margin-top: 0
+            text-align: center
+
+        .error-page
+            width: 600px
+            margin:  0 auto
+
+            h2
+                margin-top: -20px
+
+            >.headline
+                float: left
+                font-size: 100px
+                font-weight: 300
+
+            >.error-content
+                margin-left: 190px
+                display: block
+                > h3
+                    font-weight: 300
+                    font-size: 25px
+
+
+
+
+
+

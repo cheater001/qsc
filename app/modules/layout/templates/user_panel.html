@@ -1,0 +1,9 @@
+<div class="user-panel">
+    <a ui-sref="app.account" class="image pull-left">
+        <img ng-src="{{ info.photo_url }}" />
+    </a>
+    <a ui-sref="app.account" class="info">
+        <p>{{ info.name }}</p>
+        <small>{{ info.role_id | user_roles }}</small>
+    </a>
+</div>
